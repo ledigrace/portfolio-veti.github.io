@@ -1,0 +1,2578 @@
+/*		Default Layout: 992px.
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    */
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+@media only screen and (min-width: 280px) and (max-width: 359px){
+
+  header{
+    padding: 20px 0;
+  }
+  .welcome{
+    margin-left: 24px;
+    margin-top: 40px;
+  }
+  .equinox-img{
+    width: 20%;
+  }
+  header.black{
+    padding: 20px 0;
+  }
+  .navbar-brand>img{
+    width: 130px;
+  }
+  .navbar-toggle {
+    padding: 7px 8px;
+    margin-top: 8px;
+    margin-right: 4px;
+  }
+  .navbar-toggle .icon-bar{
+    width: 18px;
+    height: 1px;
+  }
+  header .navbar-brand {
+    padding-top: 0px;
+  }
+  #slider{
+    padding: 0;
+  }
+  #slider .block{
+    padding: 0 20px 0 20px;
+  }
+  #slider .block h1{
+    font-size: 30px;
+    padding: 0;
+  }
+  #slider .block p{
+    font-size: 15px;
+    line-height: 22px;
+  }
+  #intro .container-3{
+    margin-top: 230px;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 8px 24px;
+    font-size: 13px;
+  }
+  #icon{
+    top: 260px;
+    right: 0;
+    left: 23px;
+  }
+  .button-services{
+    padding: 10px 12px;
+    font-size: 10px;
+    margin: 0 15px 0 0;
+  }
+  .button-services:hover{
+    padding: 10px 12px;
+    font-size: 10px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs{
+    padding: 10px 12px;
+    font-size: 10px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs:hover{
+    padding: 10px 12px;
+    font-size: 10px;
+    margin: 0 15px 0 0;
+  }
+  .card-3{
+    margin-bottom: 20px;
+  }
+  .card-3 h1{
+    font-size: 24px;
+  }
+  .card-3 p{
+    font-size: 12px;
+  }
+  .card-3 img{
+    width: 40px;
+  }
+  #slider .block{
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .col-sm-8{
+    height: 300px;
+  }
+  #intro{
+    padding: 50px 0;
+  }
+  .about-title{
+    font-size: 16px;
+  }
+  hr{
+    max-width: 36px;
+  }
+  .about-text{
+    width: 92%;
+    margin: 10px;
+    font-size: 13px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 35px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card-title{
+    font-size: 16px;
+  }
+  .card-text{
+    font-size: 13px;
+    padding: 0 7px;
+  }
+  #service{
+    text-align: center;
+    padding: 40px 0;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title h2{
+  font-size: 16px;
+  }
+  .m-services{
+    margin-top:0;
+  }
+  .service-box{
+    margin-top: 30px;
+  }
+  .png-size {
+    width: 30px;
+  }
+  .s-box{
+    height: 330px;
+    border-radius: 3%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+  }
+  .s-box h3{
+    font-size: 16px;
+  }
+  .s-box p{
+    font-size: 13px;
+  }
+  #authorize{
+    padding: 40px 0;
+  }
+  h2{
+    font-size: 16px;
+  }
+  .authorize-img{
+    width: 195px;
+    object-fit: contain;
+  }
+  .bg-authorize{
+    margin: 14px;
+  }
+  #contact{
+    padding: 40px 0;
+  }
+  #contact-box{
+    margin: 0 15px 0 15px;
+  }
+  .contact-top{
+    margin: 0;
+  }
+  .ctop-one{
+    border-radius: 25px 25px 0 0;
+  }
+  .ctop-two {
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+  }
+  .form-width {
+    width: 100%;
+  }
+  label{
+    font-size: 12px;
+  }
+  .sub-btn{
+    width: 33%;
+    margin: 10px 73px;
+  }
+  .footer-h2{
+    font-size: 24px;
+  }
+  .footer-p {
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: 200;
+  }
+  h4{
+    font-size: 13px;
+  }
+  .f-height{
+    overflow: hidden;
+    width: 280px;
+    height: 750px;
+  }
+  #progress{
+    right: 297px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 374px){
+
+    header{
+      padding: 20px 0;
+    }
+    .d-flex {
+      display: block;
+    }
+    .navbar-brand>img{
+      width: 130px;
+    }
+    .navbar-toggle {
+      padding: 7px 8px;
+      margin-top: 8px;
+      margin-right: 4px;
+    }
+    .navbar-toggle .icon-bar{
+      width: 18px;
+      height: 1px;
+    }
+    header .navbar-brand {
+      padding-top: 0px;
+    }
+    header.black{
+      padding: 10px 0px;
+    }
+    .equinox-img{
+      width:20%;
+    }
+    .button-slider{
+      margin: 0 50px 0 55px;
+    }
+    #slider{
+      padding: 0;
+    }
+    #slider .block{
+      padding: 0 20px 0 20px;
+    }
+    #slider .block h1{
+      font-size: 30px;
+      padding: 0;
+    }
+    #slider .block p{
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .swiper{
+      margin-top: 20px;
+    }
+    header .navbar-default .navbar-nav li a{
+      padding: 8px 24px;
+      font-size: 13px;
+    }
+    #icon{
+      top: 223px;
+      right: 0;
+      left: 23px;
+    }
+    .button-services{
+      padding: 10px 12px;
+      font-size: 10px;
+      margin: 0 15px 0 0;
+    }
+    .button-services:hover{
+      padding: 10px 12px;
+      font-size: 10px;
+      margin: 0 15px 0 0;
+    }
+    .button-contactUs{
+      padding: 10px 12px;
+      font-size: 10px;
+      margin: 0 15px 0 0;
+    }
+    .button-contactUs:hover{
+      padding: 10px 12px;
+      font-size: 10px;
+      margin: 0 15px 0 0;
+    }
+    .icons-8{
+      margin: 20px 0 0 0;
+    }
+    #slider .block{
+      display: flex;
+      padding: 0 10px 0 10px;
+      flex-wrap: nowrap;
+      justify-content: center;
+    }
+    .col-sm-8{
+      height: 300px;
+    }
+    #intro{
+      padding: 50px 0;
+    }
+    #intro .container-3{
+      margin-top: 330px;
+    }
+    .about-title{
+      font-size: 16px;
+    }
+    hr{
+      max-width: 36px;
+    }
+    .about-text{
+      width: 92%;
+      margin: 10px;
+      font-size: 13px;
+      line-height: 25px;
+      text-align: justify;
+      text-indent: 35px;
+    }
+    .c-card{
+      display: block;
+    }
+    .card-title{
+      font-size: 16px;
+    }
+    .card-text{
+      font-size: 13px;
+      padding: 0 7px;
+    }
+    .card-3{
+      margin-bottom: 20px;
+    }
+    .card-3 img{
+      width: 40px;
+    }
+    .card-3 h1{
+      font-size: 16px;
+    }
+    #service{
+      text-align: center;
+      padding: 40px 0;
+    }
+    .section-title {
+      margin-bottom: 40px;
+    }
+    .section-title h2{
+    font-size: 16px;
+    }
+    .m-services{
+      margin-top:0;
+    }
+    .service-box{
+      margin-top: 30px;
+    }
+    .png-size {
+      width: 30px;
+    }
+    .s-box{
+      height: 330px;
+      border-radius: 3%;
+      padding: 15px;
+      margin: 20px 0 0 0;
+    }
+    .s-box h3{
+      font-size: 16px;
+    }
+    .s-box p{
+      font-size: 13px;
+    }
+    #authorize{
+      padding: 40px 0;
+    }
+    h2{
+      font-size: 16px;
+    }
+    .authorize-img{
+      width: 195px;
+      object-fit: contain;
+    }
+    .bg-authorize{
+      margin: 14px;
+    }
+    #contact{
+      padding: 40px 0;
+    }
+    #contact-box{
+      margin: 0 15px 0 15px;
+    }
+    .contact-top{
+      margin: 0;
+    }
+    .ctop-one{
+      border-radius: 25px 25px 0 0;
+    }
+    .ctop-two {
+      border-left: 1px solid var(--secondary-color-border);
+      border-right: 1px solid var(--secondary-color-border);
+      border-bottom: 1px solid var(--secondary-color-border);
+      border-radius: 0 0 25px 25px;
+    }
+    .form-width {
+      width: 100%;
+    }
+    label{
+      font-size: 12px;
+    }
+    .sub-btn{
+      width: 33%;
+      margin: 10px 100px;
+    }
+    .footer-h2{
+      font-size: 18px;
+    }
+    .footer-p {
+      font-size: 13px;
+      line-height: 1.6;
+      font-weight: 200;
+    }
+    h4{
+      font-size: 13px;
+    }
+    .f-height{
+      overflow: hidden;
+      width: 360px;
+      height: 670px;
+      padding: 50px 0;
+    }
+    .f-phone{
+      width: 132%;
+    }
+    header.black{
+      padding: 20px 0;
+    }
+    header.black .container{
+      background-color: var(--nav-bg-color);
+    }
+    header.black .container-svg{
+      background-color: var(--nav-bg-color);
+      height: 60px;
+    }
+    .copyright {
+    margin: 25px 0;
+    }
+  }
+@media only screen and (min-width: 375px) and (max-width: 389px){
+      header{
+        padding: 23px 0;
+      }
+      .welcome{
+        margin-left: 24px;
+        margin-top: 40px;
+      }
+      .equinox-img{
+        width: 30%;
+      }
+      .hero .block {
+    margin-bottom: 20px;
+      }
+      header.black{
+        padding: 40px 0;
+      }
+      .navbar-brand>img{
+        width: 130px;
+      }
+      .navbar-toggle {
+        padding: 7px 8px;
+        margin-top: 8px;
+        margin-right: 4px;
+      }
+      .navbar-toggle .icon-bar{
+        width: 18px;
+        height: 1px;
+      }
+      header.black{
+        padding: 23px 0;
+      }
+      header.black .container{
+        background-color: var(--nav-bg-color);
+      }
+      header.black .container-svg{
+        background-color: var(--nav-bg-color);
+        height: 60px;
+      }
+      header .navbar-brand {
+        padding-top: 0px;
+      }
+      #slider{
+        padding: 0;
+      }
+      #slider .block{
+        padding: 0 20px 0 20px;
+      }
+      #slider .block h1{
+        font-size: 30px;
+        padding: 0;
+      }
+      #slider .block p{
+        font-size: 15px;
+        line-height: 22px;
+      }
+      #intro .container-3{
+        margin-top: 325px;
+      }
+      .card-3{
+        margin-bottom: 20px;
+      }
+      .card-3 h1{
+        font-size: 28px;
+      }
+      header .navbar-default .navbar-nav li a{
+        padding: 8px 24px;
+        font-size: 13px;
+      }
+      #icon{
+        top: 230px;
+        right: 0;
+        left: 23px;
+      }
+      .button-services{
+        padding: 10px 12px;
+        font-size: 14px;
+        margin: 0 15px 0 0;
+      }
+      .button-services:hover{
+        padding: 10px 12px;
+        font-size: 14px;
+        margin: 0 15px 0 0;
+      }
+      .button-contactUs{
+        padding: 10px 12px;
+        font-size: 14px;
+        margin: 0 15px 0 0;
+      }
+      .button-contactUs:hover{
+        padding: 10px 12px;
+        font-size: 14px;
+        margin: 0 15px 0 0;
+      }
+      .button-slider {
+        margin: 23px 39px;
+    }
+      #slider .block{
+        display: flex;
+        padding: 0 10px 0 10px;
+        flex-wrap: nowrap;
+        justify-content: center;
+      }
+
+      .col-sm-8{
+        height: 400px;
+      }
+      #intro{
+        padding: 50px 0;
+      }
+      .about-title{
+        font-size: 24px;
+      }
+      hr{
+        max-width: 36px;
+      }
+      .about-text{
+        width: 92%;
+        margin: 10px;
+        font-size: 16px;
+        line-height: 25px;
+        text-align: justify;
+        text-indent: 35px;
+      }
+      .c-card{
+        display: block;
+      }
+      .card-title{
+        font-size: 24px;
+      }
+      .card-text{
+        font-size: 16px;
+        padding: 0 7px;
+      }
+      .card{
+        margin-bottom: 50px;
+      }
+      #service{
+        text-align: center;
+        padding: 40px 0;
+      }
+      .section-title {
+        margin-bottom: 40px;
+      }
+      .section-title h2{
+      font-size: 24px;
+      }
+      .m-services{
+        margin-top:0;
+      }
+      .service-box{
+        margin-top: 30px;
+      }
+      .png-size {
+        width: 50px;
+      }
+      .s-box{
+        height: 330px;
+        border-radius: 3%;
+        padding: 15px;
+        margin: 20px 0 0 0;
+      }
+      .s-box h3{
+        font-size: 20px;
+      }
+      .s-box p{
+        font-size: 16px;
+      }
+      #authorize{
+        padding: 40px 0;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      .authorize-img{
+        width: 195px;
+        object-fit: contain;
+      }
+      .bg-authorize{
+        margin: 14px;
+      }
+      #contact{
+        padding: 40px 0;
+      }
+      #contact-box{
+        margin: 0 15px 0 15px;
+      }
+      .contact-top{
+        margin: 0;
+      }
+      .ctop-one{
+        border-radius: 25px 25px 0 0;
+      }
+      .ctop-two {
+        border-left: 1px solid var(--secondary-color-border);
+        border-right: 1px solid var(--secondary-color-border);
+        border-bottom: 1px solid var(--secondary-color-border);
+        border-radius: 0 0 25px 25px;
+      }
+      .form-width {
+        width: 100%;
+      }
+      label{
+        font-size: 14px;
+      }
+      .sub-btn{
+        width: 33%;
+        margin: 10px 100px;
+      }
+      .footer-h2{
+        font-size: 22px;
+      }
+      .footer-p {
+        font-size: 14px;
+        line-height: 1.6;
+        font-weight: 200;
+      }
+      h4{
+        font-size: 13px;
+      }
+      .f-height{
+        overflow: hidden;
+        width: 373px;
+        height: 670px;
+        padding: 50px 0;
+      }
+      .f-phone{
+        width: 138%;
+      }
+      .copyright{
+        margin: 0;
+        height: 35px;
+      }
+}
+@media only screen and (min-width: 390px) and (max-width: 392px){
+  header{
+    padding: 23px 0;
+  }
+  .navbar-brand>img{
+    width: 130px;
+  }
+  .navbar-toggle {
+    padding: 7px 8px;
+    margin-top: 8px;
+    margin-right: 4px;
+  }
+  .navbar-toggle .icon-bar{
+    width: 18px;
+    height: 1px;
+  }
+  header .navbar-brand {
+    padding-top: 0px;
+  }
+  #slider{
+    padding: 0;
+  }
+  #slider .block{
+    padding: 0 20px 0 20px;
+  }
+  #slider .block h1{
+    font-size: 28px;
+    padding: 0;
+  }
+  #slider .block p{
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .swiper{
+    margin-top: 20px;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 8px 24px;
+    font-size: 13px;
+  }
+  #icon{
+    top: 230px;
+    right: 0;
+    left: 23px;
+  }
+  .button-services{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-services:hover{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs:hover{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .icons-8{
+    margin: 20px 0 0 0;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 12px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .button-slider {
+    margin: 0 47px;
+  }
+  #slider .block{
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .col-sm-8{
+    height: 400px;
+  }
+  #intro{
+    padding: 50px 0;
+  }
+  .about-title{
+    font-size: 24px;
+  }
+  hr{
+    max-width: 36px;
+  }
+  .about-text{
+    width: 92%;
+    margin: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 35px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .card-text{
+    font-size: 16px;
+    padding: 0 7px;
+  }
+  .card{
+    margin-bottom: 50px;
+  }
+  #service{
+    text-align: center;
+    padding: 40px 0;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title h2{
+  font-size: 24px;
+  }
+  .m-services{
+    margin-top:0;
+  }
+  .service-box{
+    margin-top: 30px;
+  }
+  .png-size {
+    width: 50px;
+  }
+  .s-box{
+    height: 330px;
+    border-radius: 3%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+  }
+  .s-box h3{
+    font-size: 20px;
+  }
+  .s-box p{
+    font-size: 16px;
+  }
+  #authorize{
+    padding: 40px 0;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .authorize-img{
+    width: 195px;
+    object-fit: contain;
+  }
+  .bg-authorize{
+    margin: 14px;
+  }
+  #contact{
+    padding: 40px 0;
+  }
+  #contact-box{
+    margin: 0 15px 0 15px;
+  }
+  .contact-top{
+    margin: 0;
+  }
+  .ctop-one{
+    border-radius: 25px 25px 0 0;
+  }
+  .ctop-two {
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+  }
+  .form-width {
+    width: 100%;
+  }
+  label{
+    font-size: 14px;
+  }
+  .sub-btn{
+    width: 33%;
+    margin: 10px 100px;
+  }
+  .footer-h2{
+    font-size: 22px;
+  }
+  .footer-p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 200;
+  }
+  h4{
+    font-size: 13px;
+  }
+  .f-height{
+    overflow: hidden;
+    height: 670px;
+    padding: 50px 0;
+  }
+  .f-phone{
+    width: 138%;
+  }
+  header.black{
+    padding: 23px 0;
+  }
+  .equinox-img{
+    width: 60px;
+  }
+  .welcome{
+    margin-top: 40px;
+  }
+  header.black .container{
+    background-color: var(--nav-bg-color);
+  }
+  header.black .container-svg{
+    background-color: var(--nav-bg-color);
+    height: 60px;
+  }
+  #intro .container-3{
+    margin-top: 500px;
+  }
+  .card-3 img{
+    width: 40px;
+  }
+  .card-3{
+    margin-bottom: 20px;
+  }
+  .card-3 h1{
+    font-size: 25px;
+  }
+  .copyright {
+    margin: 20px 0;
+  }
+}
+@media only screen and (min-width: 393px) and (max-width: 411px){
+  header{
+     padding: 20px 0;
+   }
+   .d-flex {
+     display: block;
+   }
+   .vetiMain{
+     width: 330px;
+     top: -100px;
+     right: -17px;
+   }
+   .navbar-brand>img{
+     width: 130px;
+   }
+   .navbar-toggle {
+     padding: 7px 8px;
+     margin-top: 8px;
+     margin-right: 4px;
+   }
+   .navbar-toggle .icon-bar{
+     width: 18px;
+     height: 1px;
+   }
+   header .navbar-brand {
+     padding-top: 0px;
+   }
+   #slider{
+     padding: 0;
+   }
+   #slider .block{
+     padding: 0 20px 0 20px;
+   }
+   #slider .block h1{
+     font-size: 35px;
+     padding: 0;
+   }
+   #slider .block p{
+     font-size: 18px;
+     line-height: 22px;
+   }
+   .swiper{
+     margin-top: 20px;
+   }
+   header .navbar-default .navbar-nav li a{
+     padding: 8px 24px;
+     font-size: 13px;
+   }
+   #icon{
+     top: 220px;
+     right: 0;
+     left: 23px;
+   }
+   .button-services{
+     padding: 10px 12px;
+     font-size: 14px;
+     margin: 0 15px 0 0;
+   }
+   .button-services:hover{
+     padding: 10px 12px;
+     font-size: 14px;
+     margin: 0 15px 0 0;
+   }
+   .button-contactUs{
+     padding: 10px 12px;
+     font-size: 14px;
+     margin: 0 15px 0 0;
+   }
+   .button-contactUs:hover{
+     padding: 10px 12px;
+     font-size: 14px;
+     margin: 0 15px 0 0;
+   }
+   .icons-8{
+     margin: 20px 0 0 0;
+   }
+   .icons-8 .facebook{
+     width: 35px;
+     margin-right: 12px;
+   }
+   .icons-8 .discord{
+     width: 37px;
+     margin-right: 12px;
+   }
+   .icons-8 .youtube{
+     width: 35px;
+     margin-right: 12px;
+   }
+   .icons-8 .gmail{
+     width: 35px;
+     margin-right: 12px;
+   }
+   .button-slider {
+    margin: 0px 45px;
+   }
+   #slider .block{
+     display: flex;
+     padding: 0 10px 0 10px;
+     flex-wrap: nowrap;
+     justify-content: center;
+   }
+   .col-sm-8{
+     height: 400px;
+   }
+   #intro{
+     padding: 50px 0;
+   }
+   .about-title{
+     font-size: 24px;
+   }
+   hr{
+     max-width: 36px;
+   }
+   .about-text{
+     width: 92%;
+     margin: 10px;
+     font-size: 16px;
+     line-height: 25px;
+     text-align: justify;
+     text-indent: 35px;
+   }
+   .c-card{
+     display: block;
+   }
+   .card-title{
+     font-size: 24px;
+   }
+   .card-text{
+     font-size: 16px;
+     padding: 0 7px;
+   }
+   .card{
+     margin-bottom: 50px;
+   }
+   #service{
+     text-align: center;
+     padding: 40px 0;
+   }
+   .section-title {
+     margin-bottom: 40px;
+   }
+   .section-title h2{
+   font-size: 24px;
+   }
+   .m-services{
+     margin-top:0;
+   }
+   .service-box{
+     margin-top: 30px;
+   }
+   .png-size {
+     width: 50px;
+   }
+   .s-box{
+     height: 330px;
+     border-radius: 3%;
+     padding: 15px;
+     margin: 20px 0 0 0;
+   }
+   .s-box h3{
+     font-size: 20px;
+   }
+   .s-box p{
+     font-size: 16px;
+   }
+   #authorize{
+     padding: 40px 0;
+   }
+   h2 {
+     font-size: 24px;
+   }
+   .authorize-img{
+     width: 195px;
+     object-fit: contain;
+   }
+   .bg-authorize{
+     margin: 14px;
+   }
+   #contact{
+     padding: 40px 0;
+   }
+   #contact-box{
+     margin: 0 15px 0 15px;
+   }
+   .contact-top{
+     margin: 0;
+   }
+   .ctop-one{
+     border-radius: 25px 25px 0 0;
+   }
+   .ctop-two {
+     border-left: 1px solid var(--secondary-color-border);
+     border-right: 1px solid var(--secondary-color-border);
+     border-bottom: 1px solid var(--secondary-color-border);
+     border-radius: 0 0 25px 25px;
+   }
+   .form-width {
+     width: 100%;
+   }
+   label{
+     font-size: 14px;
+   }
+   .sub-btn{
+     width: 33%;
+     margin: 10px 100px;
+   }
+   .footer-h2{
+     font-size: 22px;
+   }
+   .footer-p {
+     font-size: 14px;
+     line-height: 1.6;
+     font-weight: 200;
+   }
+   h4{
+     font-size: 13px;
+   }
+   .f-height{
+     overflow: hidden;
+     height: 670px;
+     padding: 50px 0;
+   }
+   .f-phone{
+     width: 138%;
+   }
+   header.black{
+    padding: 20px 0;
+   }
+   .equinox-img{
+     width: 60px;
+   }
+   .welcome{
+     margin-top: 40px;
+   }
+   header.black .container{
+     background-color: var(--nav-bg-color);
+   }
+   header.black .container-svg{
+     background-color: var(--nav-bg-color);
+     height: 60px;
+   }
+   #intro .container-3{
+     margin-top: 500px;
+   }
+   .card-3 img{
+     width: 40px;
+   }
+   .card-3{
+     margin-bottom: 20px;
+   }
+   .card-3 h1{
+     font-size: 25px;
+   }
+   .copyright {
+     margin: 20px 0;
+   }
+}
+@media only screen and (min-width: 412px) and (max-width: 413px){
+  header{
+    padding: 20px 0;
+  }
+  .d-flex {
+    display: block;
+  }
+  .vetiMain{
+    width: 330px;
+    top: -88px;
+    right: -30px;
+  }
+  .navbar-brand>img{
+    width: 130px;
+  }
+  .navbar-toggle {
+    padding: 7px 8px;
+    margin-top: 8px;
+    margin-right: 4px;
+  }
+  .navbar-toggle .icon-bar{
+    width: 18px;
+    height: 1px;
+  }
+  header .navbar-brand {
+    padding-top: 0px;
+  }
+  #slider{
+    padding: 0;
+  }
+  #slider .block{
+    padding: 0 20px 0 20px;
+  }
+  #slider .block h1{
+    font-size: 28px;
+    padding: 0;
+  }
+  #slider .block p{
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .swiper{
+    margin-top: 20px;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 8px 24px;
+    font-size: 13px;
+  }
+  #icon{
+    top: 260px;
+    right: 0;
+    left: 23px;
+  }
+  .button-services{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-services:hover{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs:hover{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .icons-8{
+    margin: 20px 0 0 0;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 12px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .button-slider {
+    margin: 0 56px;
+  }
+  #slider .block{
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .col-sm-8{
+    height: 400px;
+  }
+  #intro{
+    padding: 50px 0;
+  }
+  .about-title{
+    font-size: 24px;
+  }
+  hr{
+    max-width: 36px;
+  }
+  .about-text{
+    width: 92%;
+    margin: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 35px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .card-text{
+    font-size: 16px;
+    padding: 0 7px;
+  }
+  .card{
+    margin-bottom: 50px;
+  }
+  #service{
+    text-align: center;
+    padding: 40px 0;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title h2{
+  font-size: 24px;
+  }
+  .m-services{
+    margin-top:0;
+  }
+  .service-box{
+    margin-top: 30px;
+  }
+  .png-size {
+    width: 50px;
+  }
+  .s-box{
+    height: 330px;
+    border-radius: 3%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+  }
+  .s-box h3{
+    font-size: 20px;
+  }
+  .s-box p{
+    font-size: 16px;
+  }
+  #authorize{
+    padding: 40px 0;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .authorize-img{
+    width: 195px;
+    object-fit: contain;
+  }
+  .bg-authorize{
+    margin: 14px;
+  }
+  #contact{
+    padding: 40px 0;
+  }
+  #contact-box{
+    margin: 0 15px 0 15px;
+  }
+  .contact-top{
+    margin: 0;
+  }
+  .ctop-one{
+    border-radius: 25px 25px 0 0;
+  }
+  .ctop-two {
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+  }
+  .form-width {
+    width: 100%;
+  }
+  label{
+    font-size: 14px;
+  }
+  .sub-btn{
+    width: 33%;
+    margin: 10px 100px;
+  }
+  .footer-h2{
+    font-size: 22px;
+  }
+  .footer-p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 200;
+  }
+  h4{
+    font-size: 13px;
+  }
+  .f-height{
+    height: 670px;
+    padding: 50px 0;
+    width: 103%;
+  }
+  .f-phone{
+    width: 138%;
+  }
+  header.black{
+    padding: 20px 0;
+  }
+  .equinox-img{
+    width: 60px;
+  }
+  .welcome{
+    margin-top: 40px;
+  }
+  header.black .container{
+    background-color: var(--nav-bg-color);
+  }
+  header.black .container-svg{
+    background-color: var(--nav-bg-color);
+    height: 60px;
+  }
+  #intro .container-3{
+    margin-top: 500px;
+  }
+  .card-3 img{
+    width: 40px;
+  }
+  .card-3{
+    margin-bottom: 20px;
+  }
+  .card-3 h1{
+    font-size: 25px;
+  }
+  .copyright {
+    margin: 20px 0;
+  }
+  #progress-value{
+    margin-right: 48px;
+  }
+}
+@media only screen and (min-width: 414px) and (max-width: 539px){
+  header{
+    padding: 23px 0;
+  }
+  .d-flex {
+    display: block;
+  }
+  .vetiMain{
+    width: 330px;
+    top: -88px;
+    right: -30px;
+  }
+  .navbar-brand>img{
+    width: 130px;
+  }
+  .navbar-toggle {
+    padding: 7px 8px;
+    margin-top: 8px;
+    margin-right: 4px;
+  }
+  .navbar-toggle .icon-bar{
+    width: 18px;
+    height: 1px;
+  }
+  header .navbar-brand {
+    padding-top: 0px;
+  }
+  #slider{
+    padding: 0;
+  }
+  #slider .block{
+    padding: 0 20px 0 20px;
+  }
+  #slider .block h1{
+    font-size: 34px;
+  }
+  #slider .block p{
+    font-size: 16px;
+  }
+  .swiper{
+    margin-top: 20px;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 8px 24px;
+    font-size: 13px;
+  }
+  #icon{
+    top: 223px;
+    right: 336px;
+  }
+  .button-services{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-services:hover{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs:hover{
+    padding: 10px 12px;
+    font-size: 14px;
+    margin: 0 15px 0 0;
+  }
+  .icons-8{
+    margin: 20px 0 0 0;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 12px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 12px;
+  }
+  .button-slider {
+    margin: 0 52px;
+  }
+  #slider .block{
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .col-sm-8{
+    height: 400px;
+  }
+  #intro{
+    padding: 50px 0;
+  }
+  .about-title{
+    font-size: 24px;
+  }
+  hr{
+    max-width: 36px;
+  }
+  .about-text{
+    width: 92%;
+    margin: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: justify;
+    text-indent: 35px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card-title{
+    font-size: 24px;
+  }
+  .card-text{
+    font-size: 16px;
+    padding: 0 7px;
+  }
+  .card{
+    margin-bottom: 50px;
+  }
+  #service{
+    text-align: center;
+    padding: 40px 0;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title h2{
+  font-size: 24px;
+  }
+  .m-services{
+    margin-top:0;
+  }
+  .service-box{
+    margin-top: 30px;
+  }
+  .png-size {
+    width: 50px;
+  }
+  .s-box{
+    height: 330px;
+    border-radius: 3%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+  }
+  .s-box h3{
+    font-size: 20px;
+  }
+  .s-box p{
+    font-size: 16px;
+  }
+  #authorize{
+    padding: 40px 0;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .authorize-img{
+    width: 195px;
+    object-fit: contain;
+  }
+  .bg-authorize{
+    margin: 14px;
+  }
+  #contact{
+    padding: 40px 0;
+  }
+  #contact-box{
+    margin: 0 15px 0 15px;
+  }
+  .contact-top{
+    margin: 0;
+  }
+  .ctop-one{
+    border-radius: 25px 25px 0 0;
+  }
+  .ctop-two {
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+  }
+  .form-width {
+    width: 100%;
+  }
+  label{
+    font-size: 14px;
+  }
+  .sub-btn{
+    width: 33%;
+    margin: 10px 100px;
+  }
+  .footer-h2{
+    font-size: 22px;
+  }
+  .footer-p {
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 200;
+  }
+  h4{
+    font-size: 13px;
+  }
+  .f-height{
+    overflow: hidden;
+    height: 670px;
+    padding: 50px 0;
+  }
+  .f-phone{
+    width: 138%;
+  }
+  header.black{
+    padding: 23px 0;
+  }
+  .equinox-img{
+    width: 80px;
+  }
+  .welcome{
+    margin-top: 40px;
+  }
+  header.black .container{
+    background-color: var(--nav-bg-color);
+  }
+  header.black .container-svg{
+    background-color: var(--nav-bg-color);
+    height: 60px;
+  }
+  #intro .container-3{
+    margin-top: 500px;
+  }
+  .card-3 img{
+    width: 40px;
+  }
+  .card-3{
+    margin-bottom: 20px;
+  }
+  .card-3 h1{
+    font-size: 25px;
+  }
+  .copyright {
+    margin: 20px 0;
+  }
+}
+@media only screen and (min-width: 540px) and (max-width: 767px){
+  header{
+    padding: 40px 0;
+  }
+  .d-flex {
+    display: block;
+  }
+  .vetiMain{
+    width: 400px;
+    top: -62px;
+    right: -57px;
+  }
+  .navbar-brand>img{
+    width: 160px;
+  }
+  .navbar-toggle {
+    padding: 12px 14px;
+    margin-top: 8px;
+    margin-right: 13px;
+  }
+  .navbar-toggle .icon-bar{
+    width: 18px;
+    height: 1px;
+  }
+  header .navbar-brand {
+    padding-top: 0px;
+  }
+  #slider{
+    padding: 0;
+  }
+  #slider .block{
+    padding: 0 20px 0 20px;
+  }
+  #slider .block h1{
+    font-size: 38px;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  #slider .block p{
+    font-size: 20px;
+    line-height: 29px;
+  }
+  .swiper{
+    margin-top: 20px;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 9px 24px;
+    font-size: 16px;
+  }
+  #icon{
+    top: 231px;
+    right: 0;
+    left: 23px;
+    width: 29px;
+  }
+  .button-services{
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: 0 15px 0 0;
+  }
+  .button-services:hover{
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs{
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: 0 15px 0 0;
+  }
+  .button-contactUs:hover{
+    padding: 16px 24px;
+    font-size: 16px;
+    margin: 0 15px 0 0;
+  }
+  .icons-8{
+    margin: 20px 0 0 0;
+  }
+  .icons-8 .facebook{
+    width: 38px;
+    margin-right: 12px;
+  }
+  .icons-8 .discord{
+    width: 42px;
+    margin-right: 12px;
+  }
+  .icons-8 .youtube{
+    width: 38px;
+    margin-right: 12px;
+  }
+  .icons-8 .gmail{
+    width: 38px;
+    margin-right: 12px;
+  }
+  .button-slider {
+    margin: 0 79px;
+  }
+  #slider .block{
+    display: flex;
+    padding: 0 10px 0 10px;
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
+  .col-sm-8{
+    height: 400px;
+  }
+  #intro{
+    padding: 50px 0;
+  }
+  .about-title{
+    font-size: 28px;
+  }
+  hr{
+    max-width: 36px;
+  }
+  .card-top {
+    margin-top: 100px;
+  }
+  .about-text{
+    width: 92%;
+    margin: 10px;
+    font-size: 14px;
+    line-height: 27px;
+    text-align: justify;
+    text-indent: 35px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card-title {
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 14px;
+    padding: 0 7px;
+    line-height: 30px;
+  }
+  .card{
+    margin-bottom: 50px;
+  }
+  .btn-common{
+    font-size: 18px;
+  }
+  #service{
+    text-align: center;
+    padding: 80px 0;
+  }
+  .section-title {
+    margin-bottom: 40px;
+  }
+  .section-title h2{
+  font-size: 28px;
+  }
+  .m-services{
+    margin-top:0;
+  }
+  .service-box{
+    margin-top: 30px;
+  }
+  .png-size {
+    width: 50px;
+  }
+  .s-box{
+    height: 330px;
+    border-radius: 3%;
+    padding: 15px;
+    margin: 20px 0 0 0;
+  }
+  .s-box h3{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .m-services2{
+    margin-top: 0;
+  }
+  .s-box p{
+    font-size: 14px;
+  }
+  .section-heading{
+    font-size: 20px;
+  }
+  #authorize{
+    padding: 40px 0;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .authorize-img{
+    width: 195px;
+    object-fit: contain;
+  }
+  .bg-authorize{
+    margin: 14px;
+  }
+  #contact{
+    padding: 40px 0;
+  }
+  #contact-box{
+    margin: 0 15px 0 15px;
+  }
+  .contact-top{
+    margin: 0;
+  }
+  .ctop-one{
+    border-radius: 25px 25px 0 0;
+  }
+  .ctop-two {
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+  }
+  .form-width {
+    width: 100%;
+  }
+  label{
+    font-size: 18px;
+  }
+  .sub-btn{
+    width: 33%;
+    margin: 20px 161px;
+    padding: 14px 13px;
+  }
+  .footer-h2{
+    font-size: 22px;
+  }
+  .footer-p {
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 200;
+}
+  h4{
+    font-size: 16px;
+  }
+  .f-height{
+    overflow: hidden;
+    width: 540px;
+    height: 670px;
+    padding: 50px 0;
+  }
+  .f-phone{
+    width: 138%;
+  }
+  footer a{
+    font-size: 16px;
+  }
+  footer p{
+    font-size: 16px;
+  }
+  header.black{
+    padding: 12px 0px;
+  }
+  .equinox-img{
+    width: 80px;
+  }
+  .welcome{
+    margin-top: 40px;
+  }
+  header.black .container{
+    background-color: var(--nav-bg-color);
+  }
+  header.black .container-svg{
+    background-color: var(--nav-bg-color);
+    height: 60px;
+  }
+  #intro .container-3{
+    margin-top: 350px;;
+  }
+  .card-3 img{
+    width: 40px;
+  }
+  .card-3{
+    margin-bottom: 20px;
+  }
+  .card-3 h1{
+    font-size: 20px;
+  }
+  .card-3 p{
+    font-size: 12px;
+  }
+
+}
+@media only screen and (min-width: 768px) and (max-width: 819px){
+  header{
+    padding: 12px 0px;
+    width: 111%;
+  }
+  header.black{
+    padding: 12px 0px;
+  }
+  .vetiMain{
+    position: relative;
+    top: -63px;
+    right: 18px;
+    height: 500px;
+    width: 370px;
+    object-fit: contain;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 15px 14px;
+  }
+  header .navbar-default .navbar-nav li a:hover{
+    padding: 15px 14px;
+  }
+  #icon{
+    top: 21px;
+    right: -34px;
+  }
+  .about-bg{
+    width: 111%;
+    height: 112%;
+  }
+  .navbar-brand>img{
+    width: 160px;
+    top: 21px;
+  }
+  #slider{
+    width: 111%;
+  }
+  #slider .block h1{
+    font-size: 60px;
+  }
+  .button-contactUs{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-contactUs:hover{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-services{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-services:hover{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .icons-8{
+    margin: 31px 0 0 5px;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 6px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 6px;
+  }
+  #slider{
+    padding: 50px 0 50px 0;
+  }
+  .section-heading{
+    font-size: 26px;
+  }
+  .about-text{
+    width: 100%;
+  }
+  .contact-top{
+    width: 750px;
+  }
+  .ctop-one {
+    border: 1px solid var(--secondary-color-border);
+    border-radius: 25px 25px 0 0;
+    margin: 20px 0 0 52px;;
+  }
+  .ctop-two{
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+    margin: 0 0 0 52px;
+  }
+  .gmap_canvas{
+    margin-left: 20px;
+  }
+  #intro{
+    width: 840px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: var(--secondary-color-bg);
+    border-radius: 3%;
+    border: 1px solid var(--secondary-color-border);
+    width: 50%;
+    height: 100%;
+  }
+  .section-title h2{
+    font-size: 26px;
+  }
+  .container-service{
+    margin-right: -36px;
+  }
+  .service-box{
+    margin-top: 40px;
+  }
+  .bg-authorize{
+    margin-right: -36px;
+  }
+  .authorize-img{
+    width: 240px;
+    object-fit: contain;
+  }
+  .contact-form{
+    margin-left: 120px;
+  }
+  .sub-btn{
+    margin: 14px 310px;
+  }
+  .f-height{
+    height: 750px;
+    width: 110%;
+  }
+  #progress{
+    right: 40px;
+  }
+  .equinox-img{
+    width: 15%;
+  }
+  .welcome {
+    margin-top: 50px;
+  }
+  #slider .block p{
+    font-size: 20px;
+  }
+  .button-slider{
+    margin: 0 217px 0 206px;
+  }
+  #intro .container-3{
+    margin-top: 730px;
+  }
+  .card-3 img{
+    width: 40px;
+  }
+  .card-3{
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 911px){
+/* ipad air */
+  .vetiMain{
+    position: relative;
+    top: -63px;
+    right: 18px;
+    height: 500px;
+    width: 370px;
+    object-fit: contain;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 15px 14px;
+  }
+  header .navbar-default .navbar-nav li a:hover{
+    padding: 15px 14px;
+  }
+  #icon{
+    top: 21px;
+    right: -34px;
+  }
+  .navbar-brand>img{
+    width: 160px;
+    top: 21px;
+  }
+  #slider .block h1{
+    font-size: 60px;
+  }
+  .button-contactUs{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-contactUs:hover{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-services{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-services:hover{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .icons-8{
+    margin: 31px 0 0 5px;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 6px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 6px;
+  }
+  #slider{
+    padding: 50px 0 50px 0;
+  }
+  .section-heading{
+    font-size: 26px;
+  }
+  .about-text{
+    width: 100%;
+  }
+  .contact-top{
+    width: 770px;
+    margin: 0;
+  }
+  .ctop-one {
+    border: 1px solid var(--secondary-color-border);
+    border-radius: 25px 25px 0 0;
+    margin: 20px 0 0 9px;
+  }
+  .ctop-two{
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+    margin: 0 0 0 9px;
+  }
+  .gmap_canvas{
+    margin-left: 20px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: var(--secondary-color-bg);
+    border-radius: 3%;
+    border: 1px solid var(--secondary-color-border);
+    width: 50%;
+    height: 100%;
+  }
+  .section-title h2{
+    font-size: 26px;
+  }
+  .container-service{
+    margin-right: 20px;
+  }
+  .service-box{
+    margin-top: 40px;
+  }
+  .bg-authorize{
+    margin-right: 17px;
+  }
+  .authorize-img{
+    width: 240px;
+    object-fit: contain;
+  }
+  .contact-form{
+    margin-left: 120px;
+  }
+  .sub-btn{
+    margin: 14px 310px;
+  }
+  .f-height{
+    height: 750px;
+  }
+  #progress{
+    right: 30px;
+  }
+  header{
+    padding: 10px 10px;
+  }
+  header.black{
+    height: 84px;
+    padding: 10px 10px;
+  }
+  .equinox-img{
+    width: 15%;
+  }
+  .welcome {
+    margin-top: 50px;
+  }
+  #slider .block p{
+    font-size: 20px;
+  }
+  .button-slider{
+    margin: 0 217px 0 206px;
+  }
+  #intro .container-3{
+    margin-top: 730px;
+  }
+}
+@media only screen and (min-width: 912px) and (max-width: 1023px){
+/* surface pro */
+  .vetiMain{
+    position: relative;
+    top: -63px;
+    right: 18px;
+    height: 500px;
+    width: 370px;
+    object-fit: contain;
+  }
+  header .navbar-default .navbar-nav li a{
+    padding: 15px 14px;
+  }
+  header .navbar-default .navbar-nav li a:hover{
+    padding: 15px 14px;
+  }
+  #icon{
+    top: 21px;
+    right: -43px;
+  }
+  .navbar-brand>img{
+    width: 160px;
+    top: 21px;
+  }
+  #slider .block h1{
+    font-size: 60px;
+  }
+  .button-contactUs{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-contactUs:hover{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-services{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .button-services:hover{
+    padding: 8px 12px;
+    margin: 0 5px;
+    font-size: 12px;
+  }
+  .icons-8{
+    margin: 31px 0 0 5px;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 6px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 6px;
+  }
+  #slider{
+    padding: 50px 0 50px 0;
+  }
+  .section-heading{
+    font-size: 26px;
+  }
+  .about-text{
+    width: 100%;
+  }
+  .contact-top{
+    width: 800px;
+    margin: 0;
+  }
+  .ctop-one {
+    border: 1px solid var(--secondary-color-border);
+    border-radius: 25px 25px 0 0;
+    margin: 20px 0 0 0;
+  }
+  .ctop-two{
+    border-left: 1px solid var(--secondary-color-border);
+    border-right: 1px solid var(--secondary-color-border);
+    border-bottom: 1px solid var(--secondary-color-border);
+    border-radius: 0 0 25px 25px;
+  }
+  .gmap_canvas{
+    margin-left: 20px;
+  }
+  .c-card{
+    display: block;
+  }
+  .card {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: var(--secondary-color-bg);
+    border-radius: 3%;
+    border: 1px solid var(--secondary-color-border);
+    width: 50%;
+    height: 100%;
+  }
+  .section-title h2{
+    font-size: 26px;
+  }
+  .container-service{
+    margin-right: auto;
+  }
+  .service-box{
+    margin-top: 40px;
+  }
+  .bg-authorize{
+    margin-right: auto;
+  }
+  .authorize-img{
+    width: 240px;
+    object-fit: contain;
+  }
+  .contact-form{
+    margin-left: 120px;
+  }
+  .sub-btn{
+    margin: 14px 310px;
+  }
+  .f-height{
+    height: 750px;
+  }
+  #progress{
+    right: 78px;
+  }
+  header{
+    width: 102%;
+    padding: 10px 10px;
+  }
+  header.black{
+    width: 102%;
+    padding: 10px 10px;
+  }
+  .equinox-img{
+    width: 20%;
+  }
+  .welcome {
+    margin-top: 50px;
+  }
+  .button-slider{
+    margin: 0 217px 0 206px;
+  }
+  .about-bg{
+    height: 102%;
+    width: 102%;
+  }
+  #intro .container-3{
+    margin-top: 920px;
+    margin-left: 98px;
+  }
+  .card-3{
+    margin-bottom: 40px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1279px){
+  header{
+    padding: 10px 0px;
+    width: 105%;
+  }
+  header.black{
+    padding: 10px 0px;
+  }
+  .about-bg{
+    height: 110%;
+    width: 105%;
+  }
+  .button-slider{
+    margin: 0 259px 0 254px;
+  }
+  #intro .container-3 {
+    margin-top: 240px;
+    margin-right: 0px;
+  }
+  #intro .about-top {
+    margin-top: 100px;
+    margin-left: 54px;
+  }
+  .card-top {
+    margin-top: 40px;
+    margin-right: -3px;
+  }
+  .container-service{
+    margin-right: -3px;
+  }
+  .bg-authorize{
+    margin-right: -3px;
+  }
+  #contact .container{
+    margin-right: -3px;
+  }
+  #slider .container{
+    margin-left: 67px;
+  }
+  .vetiMain{
+    right: 6px;
+    height: 500px;
+    width: 440px;
+  }
+  .about-text {
+    width: 100%;
+  }
+  .f-height{
+    width: 105%;
+  }
+  #progress{
+    right: 38px;
+  }
+  .icons-8{
+    margin: 31px 0 0 5px;
+  }
+  .icons-8 .facebook{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .discord{
+    width: 37px;
+    margin-right: 6px;
+  }
+  .icons-8 .youtube{
+    width: 35px;
+    margin-right: 6px;
+  }
+  .icons-8 .gmail{
+    width: 35px;
+    margin-right: 6px;
+  }
+}
+@media only screen and (max-width: 1280px){
+  .about-bg{
+    height: 100vh;
+  }
+}

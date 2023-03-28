@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+
+    {% include head.html %}
+
+  </head>
+  <body id="page-top">
+
+
+    {% include header.html %}
+
+
+    {{ content }}
+
+
+
+
+
+
+
+
+
+    {% include footer.html %}
+
+<script>
+
+  var icon = document.getElementById("icon");
+
+  icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    document.body.classList.toggle("light-theme");
+    if(document.body.classList.contains("dark-theme")){
+      // icon.src = "{{ site.baseurl }}/img/sun.png";
+      localStorage.setItem("theme", "dark-theme");
+    }else{
+      // icon.src = "{{ site.baseurl }}/img/moon.png";
+      localStorage.setItem("theme", "light-theme");
+    }
+  }
+  document.body.classList.add(localStorage.getItem("theme"));
+
+</script>
+    </body>
+
+</html>

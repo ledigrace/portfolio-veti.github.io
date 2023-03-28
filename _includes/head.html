@@ -1,0 +1,103 @@
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Vera Equinox</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- theme meta -->
+<meta name="theme-name" content="vera-equinox" />
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+<!-- CSS -->
+<link rel="icon" type="image/png" href="{{ site.baseurl }}/logo.png">
+<link rel="stylesheet" href="{{ site.baseurl }}/css/owl.carousel.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/main.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/style.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/ionicons.min.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/animate.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/responsive.css" />
+<link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/css/intlTelInput.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="dist/aos.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Js -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+<script src="{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script src="{{ site.baseurl }}/js/owl.carousel.min.js"></script>
+<script src="{{ site.baseurl }}/js/plugins.js"></script>
+<script src="{{ site.baseurl }}/js/min/waypoints.min.js"></script>
+<script src="{{ site.baseurl }}/js/jquery.counterup.js"></script>
+<script src="{{ site.baseurl }}/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/intlTelInput.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.12/js/intlTelInput.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="dist/aos.js" charset="utf-8"></script>
+
+<script>
+  //for contact form
+  function SubForm (){
+  let x = document.forms["contact"]["full_name"].value;
+  let y = document.forms["contact"]["email"].value;
+  let z = document.forms["contact"]["phone"].value;
+  let a = document.forms["contact"]["message"].value;
+if (x == "") {
+  document.getElementById("full_name").placeholder = "Please fill out this field";
+  document.getElementById("full_name").style.boxShadow = "0 0 2px 1px #cc0001";
+  return false;
+}
+if (y == "") {
+  document.getElementById("email").placeholder = "Please fill out this field";
+  document.getElementById("email").style.boxShadow = "0 0 2px 1px #cc0001";
+  return false;
+}
+if (z == "") {
+  document.getElementById("phone").placeholder = "Please fill out this field";
+  document.getElementById("phone").style.boxShadow = "0 0 2px 1px #cc0001";
+  return false;
+}
+if (a == "") {
+  document.getElementById("message").placeholder = "Please fill out this field";
+  document.getElementById("message").style.boxShadow = "0 0 2px 1px #cc0001";
+  return false;
+}
+else{
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/Hu3EwHO9RytRs5DY/', //link of the google sheet that uploaded on api spreadsheets
+        type:'post',
+        data:$("#veti").serializeArray(),
+        success: function(){
+          alert("Thank You! :)")
+          let x = document.forms["contact"]["full_name"].value = '';
+          let y = document.forms["contact"]["email"].value = '';
+          let z = document.forms["contact"]["phone"].value = '';
+          let a = document.forms["contact"]["message"].value = '';
+          // window.location = "{{ site.baseurl }}/home";
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+}
+
+//ipinfo.io
+async function fetchText(){
+  let url = 'https://ipinfo.io/210.23.187.171/json?token=bf1eedb09dfc46';
+  let response = await fetch(url);
+  let data = await response.json();
+
+  return data;
+}
+</script>

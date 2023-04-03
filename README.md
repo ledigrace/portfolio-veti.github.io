@@ -1,2 +1,2 @@
-# portfolio-veti.github.io
- 
+# veti-lp
+Landing page for veti services
